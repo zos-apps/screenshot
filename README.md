@@ -1,50 +1,55 @@
 # 📷 Screenshot
 
-Capture and annotate screenshots
+[![Version](https://img.shields.io/badge/version-1.0.0-blue.svg)](https://github.com/zos-apps/screenshot/releases)
+[![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
+[![Docs](https://img.shields.io/badge/docs-online-purple.svg)](https://zos-apps.github.io/screenshot)
 
-## Category
-`system`
+> Capture and annotate screenshots
+
+**[Documentation](https://zos-apps.github.io/screenshot)** • **[App Store](https://zos-apps.github.io/app-store)** • **[All Apps](https://github.com/zos-apps)**
 
 ## Installation
 
 ```bash
-npm install @anthropic/screenshot
-# or
-pnpm add @anthropic/screenshot
+npm install github:zos-apps/screenshot
 ```
+
+Or install via the [zOS App Store](https://zos-apps.github.io/app-store).
 
 ## Usage
 
 ```tsx
-import App from '@anthropic/screenshot';
+import Screenshot from '@zos-apps/screenshot';
 
-function MyComponent() {
-  return <App onClose={() => console.log('closed')} />;
+function App() {
+  return <Screenshot />;
 }
 ```
 
-## Development
+## Features
 
-```bash
-# Install dependencies
-pnpm install
+- Native zOS window integration
+- Dark mode support
 
-# Build
-pnpm build
+- Context menu actions
+- Menu bar integration
 
-# Watch mode
-pnpm dev
-```
+## Category
 
-## zOS Integration
+**System**
 
-This app is designed to run within zOS, a web-based operating system. It follows the zOS app specification with:
+## Permissions
 
-- Standalone React component
-- TypeScript support
-- Tailwind CSS styling
-- Window management integration
+- `screen`
+- `storage.local`
+
+## Links
+
+- [Documentation](https://zos-apps.github.io/screenshot)
+- [GitHub Repository](https://github.com/zos-apps/screenshot)
+- [Report Issues](https://github.com/zos-apps/screenshot/issues)
+- [All zOS Apps](https://github.com/zos-apps)
 
 ## License
 
-MIT
+MIT © [Hanzo AI](https://hanzo.ai)

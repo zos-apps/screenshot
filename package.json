@@ -1,5 +1,5 @@
 {
-  "name": "@anthropic/screenshot",
+  "name": "@zos-apps/screenshot",
   "version": "1.0.0",
   "type": "module",
   "main": "./dist/index.js",
@@ -11,9 +11,15 @@
     "icon": "📷",
     "category": "system",
     "description": "Capture and annotate screenshots",
-    "permissions": ["screen", "storage.local"],
+    "permissions": [
+      "screen",
+      "storage.local"
+    ],
     "window": {
-      "defaultSize": { "width": 400, "height": 300 },
+      "defaultSize": {
+        "width": 400,
+        "height": 300
+      },
       "resizable": true
     }
   },
@@ -30,5 +36,23 @@
     "@types/react-dom": "^18.3.0",
     "tsup": "^8.3.5",
     "typescript": "^5.7.2"
-  }
+  },
+  "description": "Capture and annotate screenshots",
+  "homepage": "https://zos-apps.github.io/screenshot",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zos-apps/screenshot.git"
+  },
+  "bugs": {
+    "url": "https://github.com/zos-apps/screenshot/issues"
+  },
+  "author": "Hanzo AI",
+  "license": "MIT",
+  "keywords": [
+    "zos",
+    "app",
+    "screenshot",
+    "macos",
+    "desktop"
+  ]
 }
