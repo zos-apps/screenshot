@@ -21,7 +21,27 @@
         "height": 300
       },
       "resizable": true
-    }
+    },
+    "about": "Capture screenshots and screen recordings.",
+    "help": [
+      "Choose capture mode",
+      "Click or drag to capture",
+      "Edit and save"
+    ],
+    "docs": "https://zos-apps.github.io/screenshot",
+    "site": "https://github.com/zos-apps/screenshot",
+    "shortcuts": [
+      "Cmd+Shift+3 Full screen",
+      "Cmd+Shift+4 Selection",
+      "Cmd+Shift+5 Options"
+    ],
+    "features": [
+      "Full screen capture",
+      "Window capture",
+      "Selection capture",
+      "Recording",
+      "Annotations"
+    ]
   },
   "scripts": {
     "build": "tsup",
@@ -54,5 +74,13 @@
     "screenshot",
     "macos",
     "desktop"
-  ]
+  ],
+  "funding": {
+    "type": "github",
+    "url": "https://github.com/sponsors/zos-apps"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  }
 }
