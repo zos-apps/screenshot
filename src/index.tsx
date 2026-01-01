@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 
 interface ScreenshotProps {
   onClose: () => void;
@@ -6,7 +6,7 @@ interface ScreenshotProps {
 
 type CaptureMode = 'fullscreen' | 'window' | 'selection' | 'timed';
 
-const Screenshot: React.FC<ScreenshotProps> = ({ onClose }) => {
+const Screenshot: React.FC<ScreenshotProps> = ({ onClose: _onClose }) => {
   const [mode, setMode] = useState<CaptureMode>('fullscreen');
   const [timer, setTimer] = useState(5);
   const [showPointer, setShowPointer] = useState(true);
